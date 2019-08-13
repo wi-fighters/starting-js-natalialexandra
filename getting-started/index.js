@@ -1,8 +1,8 @@
 // 1
 console.log("# 1");
 let firstName = "Natalia";
-let secondName = "Alexandra";
-console.log(firstName, secondName);
+let lastName = "Olchowatski";
+console.log(firstName, lastName);
 console.log("\n");
 
 // 2
@@ -12,8 +12,8 @@ let age2 = 35;
 let city = "Berlin";
 let job2 = "Web Developer";
 let hobby = "Sport";
-//console.log(name2 + " is " + age2 + ". He lives in " + city + ". He is a " + job2 + "and his hobby is " + hobby);
-console.log(name2 + " is a " + job2 +  " from " + city + ". He is " + age2 + " and his hobby is " + hobby + ".");
+//console.log(name2, "is a", job2, "from", city,". He is", age2, "and his hobby is",hobby);
+console.log(name2, job2, city, age2, hobby);
 console.log("\n");
 
 // 3
@@ -27,11 +27,11 @@ console.log("\n");
 // 4
 console.log("# 4 ################");
 let length = 16.78; 
-let lastName = "Johnson"; 
+let lastName2 = "Johnson"; 
 let car = ""; 
 let isOpen = true;
 console.log(typeof length);     // number
-console.log(typeof lastName);   // string
+console.log(typeof lastName2);   // string
 console.log(typeof car);        // string
 console.log(typeof isOpen);     // boolean
 console.log("\n");
@@ -40,14 +40,17 @@ console.log("\n");
 console.log("# 5 ------------------------");
 let ageMark = "30";
 let ageJohn = 30;
-console.log("type of Mark's age ", typeof ageMark);
-console.log("type of John's age ", typeof ageJohn);
+console.log("type of Mark's age ", typeof ageMark); // string
+console.log("type of John's age ", typeof ageJohn); // number
 console.log("\n");
 
 // 6
 console.log("# 6 ------------------------");
-let older = true;
-console.log("John is older than Mark: ", older);
+let johnAge = 35;
+let markAge = 30;
+//let older = true;
+let isJohnOlder = (johnAge > markAge);
+console.log("John is older than Mark: " + isJohnOlder);
 console.log("\n");
 
 // 7
@@ -74,7 +77,7 @@ console.log("\n");
 console.log("# 9 ------------------------");
 let test;
 console.log("type of test: " + typeof test);
-// undefined because the variable is just defined, but not assigned with any value
+// The type of variable test is undefined because the variable is just defined, but not assigned with any value
 console.log("\n");
 
 // 10
