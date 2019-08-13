@@ -69,8 +69,8 @@ console.log("\n");
 // 7
 console.log("# 7 -----------------------------");
 // At the movies
-let tickets = 6450 / 15;
-console.log(`tickets purchased: ${tickets}`);
+let people = 6450 / 15;
+console.log(`people purchased: ${people}`);
 
 // Income per Week
 let income = 500 * 52;
