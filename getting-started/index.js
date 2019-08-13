@@ -7,13 +7,13 @@ console.log("\n");
 
 // 2
 console.log("# 2 ------------------------");
-let name2 = "Alex";
-let age2 = 35;
+let name = "Alex";
+let age = 35;
 let city = "Berlin";
-let job2 = "Web Developer";
+let job = "Web Developer";
 let hobby = "Sport";
-//console.log(name2, "is a", job2, "from", city,". He is", age2, "and his hobby is",hobby);
-console.log(name2, job2, city, age2, hobby);
+//console.log(name, "is a", job, "from", city,". He is", age, "and his hobby is",hobby);
+console.log(name, job, city, age, hobby);
 console.log("\n");
 
 // 3
@@ -22,6 +22,7 @@ let nameJohnSmith = "John Smith";
 let ageJohnSmith = 43;
 let jobJohnSmith = "teacher";
 console.log(nameJohnSmith + " is a " + ageJohnSmith + " year old " + jobJohnSmith + " who lives in Berlin");
+console.log(name + " is a " + job + " from " + city + ". He is " + age + " and his hobby is " + hobby + ".");
 console.log("\n");
 
 // 4
@@ -48,7 +49,6 @@ console.log("\n");
 console.log("# 6 ------------------------");
 let johnAge = 35;
 let markAge = 30;
-//let older = true;
 let isJohnOlder = (johnAge > markAge);
 console.log("John is older than Mark: " + isJohnOlder);
 console.log("\n");
@@ -64,13 +64,16 @@ console.log("a > c ", (a > c));
 console.log("a < c ", (a < c));
 console.log("b > c ", (b > c));
 console.log("b < c ", (b < c));
+console.log("a === b ", (a === b));
+console.log("a === c ", (a === c));
+console.log("b === c ", (b === c));
 console.log("\n");
 
 // 8
 console.log("# 8 ------------------------");
 let programmingLanguage = "JavaScript";
 let isFun = true;
-console.log(programmingLanguage + " is fun:" + isFun);
+console.log(programmingLanguage + " is fun: " + isFun);
 console.log("\n");
 
 // 9
