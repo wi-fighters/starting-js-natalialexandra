@@ -75,6 +75,10 @@ console.log(`${myString[myString.length - 1]}${myString.substring(1, myString.le
 
 console.log("---------------------------");
 // 12
+onst myName = "Jaime";
+const myCity = "Berlin";
+const myJob = "web developer";
+console.log(`My name is ${myName}. I live in ${myCity} and I am a ${myJob}.`);
 
 
 console.log("---------------------------");
