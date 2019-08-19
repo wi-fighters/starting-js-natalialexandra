@@ -49,7 +49,7 @@ let perimeterSquare = 4 * 4.75;
 console.log(`square perimeter: ${perimeterSquare}cm`);
 
 // Perimeter of a Triangle
-let perimeterTriangle = 5 + 6 + 7; 
+let perimeterTriangle = (5 + 6 + 7) / 2; 
 console.log(`triangle perimeter: ${perimeterTriangle}cm`);
 
 // Area of a Square
@@ -57,7 +57,7 @@ let areaSquare = 5 * 5;
 console.log(`square area: ${areaSquare}`);
 
 // Area of a Triangle
-let areaTriangle = (5 * 7) / 2; 
+let areaTriangle = (5 * 6 * 7) / 2; 
 console.log(`triangle area: ${areaTriangle}`);
 
 // Volume of a Cube
