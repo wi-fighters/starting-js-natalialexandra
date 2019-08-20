@@ -53,5 +53,5 @@ round down number 3: ${numRoundDown5}
 
 console.log("\n# 4 -----------------------------");
 //# 4 random integer from 1-6
-let randomNum = Math.floor(Math.random() * 10 + 1);
+let randomNum = Math.floor(Math.random() * 6 + 1);
 console.log(`random number: ${randomNum}`);
