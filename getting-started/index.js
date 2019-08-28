@@ -1,8 +1,8 @@
 // 1
 console.log("# 1");
 let firstName = "Natalia";
-let lastName = "Olchowatski";
-console.log(firstName, lastName);
+let secondName = "Alexandra";
+console.log(firstName, secondName);
 console.log("\n");
 
 // 2
@@ -21,20 +21,38 @@ console.log("# 3 ------------------------");
 let nameJohnSmith = "John Smith";
 let ageJohnSmith = 43;
 let jobJohnSmith = "teacher";
-console.log(nameJohnSmith + " is a " + ageJohnSmith + " year old " + jobJohnSmith + " who lives in Berlin");
-console.log(name + " is a " + job + " from " + city + ". He is " + age + " and his hobby is " + hobby + ".");
+console.log(
+  nameJohnSmith +
+    " is a " +
+    ageJohnSmith +
+    " year old " +
+    jobJohnSmith +
+    " who lives in Berlin"
+);
+console.log(
+  name +
+    " is a " +
+    job +
+    " from " +
+    city +
+    ". He is " +
+    age +
+    " and his hobby is " +
+    hobby +
+    "."
+);
 console.log("\n");
 
 // 4
 console.log("# 4 ################");
-let length = 16.78; 
-let lastName2 = "Johnson"; 
-let car = ""; 
+let length = 16.78;
+let lastName2 = "Johnson";
+let car = "";
 let isOpen = true;
-console.log(typeof length);     // number
-console.log(typeof lastName2);   // string
-console.log(typeof car);        // string
-console.log(typeof isOpen);     // boolean
+console.log(typeof length); // number
+console.log(typeof lastName2); // string
+console.log(typeof car); // string
+console.log(typeof isOpen); // boolean
 console.log("\n");
 
 // 5
@@ -49,7 +67,7 @@ console.log("\n");
 console.log("# 6 ------------------------");
 let johnAge = 35;
 let markAge = 30;
-let isJohnOlder = (johnAge > markAge);
+let isJohnOlder = johnAge > markAge;
 console.log("John is older than Mark: " + isJohnOlder);
 console.log("\n");
 
@@ -58,15 +76,15 @@ console.log("# 7 ------------------------");
 let a = 3;
 let b = 5;
 let c = 7;
-console.log("a > b ", (a > b));
-console.log("a < b ", (a < b));
-console.log("a > c ", (a > c));
-console.log("a < c ", (a < c));
-console.log("b > c ", (b > c));
-console.log("b < c ", (b < c));
-console.log("a === b ", (a === b));
-console.log("a === c ", (a === c));
-console.log("b === c ", (b === c));
+console.log("a > b ", a > b);
+console.log("a < b ", a < b);
+console.log("a > c ", a > c);
+console.log("a < c ", a < c);
+console.log("b > c ", b > c);
+console.log("b < c ", b < c);
+console.log("a === b ", a === b);
+console.log("a === c ", a === c);
+console.log("b === c ", b === c);
 console.log("\n");
 
 // 8
