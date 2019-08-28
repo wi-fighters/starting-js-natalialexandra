@@ -26,15 +26,3 @@ function calculateDogAge(ageDog) {
   return `Your doggie is ${agePuppyInDogAge} years old in dog years!`;
 }
 console.log(calculateDogAge(5));
-
-// Bonus
-function calculateDogAge2(ageHuman, ageDog) {
-  let dogAgeInDogAge = ageDog * 7;
-  let humanAgeInDogAge = ageHuman / 7;
-  let 
-
-  return `Your doggie is ${Math.round(
-    humanAgeInDogAge
-  )} years old in dog years and ${dogAgeInHumanAge} in human age!`;
-}
-console.log(calculateDogAge2(30, 5));

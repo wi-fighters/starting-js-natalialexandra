@@ -21,12 +21,15 @@ Create a function called fahrenheitToCelsius:
  *  and fahrenheitToCelsius(20)
  *
  */
+
+// convert celsius to fahrenheit
 function celsiusToFahrenheit(celsius) {
   let convertCelsius = (celsius * 9) / 5 + 32;
   return `${celsius}°C is ${convertCelsius}°F`;
 }
 console.log(celsiusToFahrenheit(20));
 
+// convert fahrenheit to celsius
 function fahrenheitToCelsius(fahrenheit) {
   let convertFahrenheit = ((fahrenheit - 32) / 9) * 5;
   return `${fahrenheit}°F is ${convertFahrenheit}°C`;
