@@ -1,6 +1,11 @@
-function bandName(color, food) {
-  let capitalizeColor = color[0].toUpperCase() + color.substring(1);
-  let capitalFood = food[0].toUpperCase() + food.substring(1);
-  return `The ${capitalizeColor} ${capitalFood}`;
+function generateBandName(clothingColour, lastFoodEaten) {
+  //capitalize first letter of color and of food
+  let colorCapitalLetter1 =
+    clothingColour[0].toUpperCase() + clothingColour.substring(1);
+  let foodCapitalLetter1 =
+    lastFoodEaten[0].toUpperCase() + lastFoodEaten.substring(1);
+
+  // return the message
+  return `The ${colorCapitalLetter1} ${foodCapitalLetter1}`;
 }
 console.log(bandName("blue", "banana"));
