@@ -17,6 +17,6 @@ function generateBandName(clothingColour, lastFoodEaten) {
 //storeBandNames.push(bandName1);
 storeBandNames.push(generateBandName("blue", "bAnana"));
 storeBandNames.push(generateBandName("green", "apple"));
-storeBandNames.push(generateBandName("black", "cookies"));
+storeBandNames.push(generateBandName("Black", "cookies"));
 
 console.log(storeBandNames);
