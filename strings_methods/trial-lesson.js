@@ -51,4 +51,4 @@ function schmozzlerFunc(name) {
 
   console.log(str.concat(nameToLower));
 }
-schmozzlerFunc("Alex");
+schmozzlerFunc("David");
