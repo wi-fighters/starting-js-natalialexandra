@@ -51,9 +51,10 @@ function makeTasty(color) {
 function generateBandName(clothingColor, lastFoodEaten) {
   let color = capitalizeColor(clothingColor);
   let food = capitalizeFood(lastFoodEaten);
-
+  // return result
   return `The ${makeTasty(color)} ${food}`;
 }
+
 // call and push result to an array
 storeBandNames.push(generateBandName("blue", "bAnana"));
 storeBandNames.push(generateBandName("green", "apple"));
